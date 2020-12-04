@@ -1,5 +1,5 @@
 # Assignment 4
-![Screenshot](https://github.com/TerranUp16/cnt-4714-assignment-4/blob/main/screenshots/0_start.png)
+![Screenshot](https://github.com/TerranUp16/cnt-4714-assignment-4/blob/main/screenshots/git_header.png)
 This project was created under the direction of Dr. Mark Llewellyn for University of Central Florida course CNT-4714.
 
 This project calls for a three-tier, distributed web application. The frontend uses `.jsp`, middle-tier processing is handled via Tomcat servlet, and MySQL provides the database backend (which the Tomcat servlet communicates directly with).
