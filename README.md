@@ -61,4 +61,4 @@ Please also review Oracle's documentation on this for-
 * [Linux](https://docs.oracle.com/en/java/javase/14/install/installation-jdk-linux-platforms.html#GUID-737A84E4-2EFF-4D38-8E60-3E29D1B884B8)
 
 ## Sample Screenshot
-![Query performed on data](https://github.com/TerranUp16/cnt-4714-assignment-3/blob/main/screenshots/5d_refined.png)
+![Query performed on data](https://github.com/TerranUp16/cnt-4714-assignment-4/blob/main/screenshots/5d_refined.png)
