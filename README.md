@@ -19,8 +19,6 @@ If an invalid query is issued, an error message will be displayed below.
 Any changes to the `shipments` table which result in a row going over 100 quantity will cause the associated supplier's `status` to be increased by `5`. When this logic runs, a notification will appear which also clarifies how many rows were changed as a result of the logic.
 
 # Dependencies
-* [Java 11](https://www.oracle.com/java/technologies/javase-downloads.html)
-* [Apache Maven](https://maven.apache.org/download.cgi)
 * [Docker Desktop](https://www.docker.com/products/docker-desktop)
 
 # Install and Run
@@ -44,21 +42,6 @@ In a web browser of your choice, navigate to [http://localhost:8080/Project4](ht
 
 ## Stopping Containers
 In the same directory you started the containers from with `powershell .\startService.ps1`, run `powershell .\stopService.ps1`.
-
-## Troubleshooting
-> `mvn` not found
-
-Please review [Maven's installation and configuration documentation](https://maven.apache.org/install.html). In particular, make sure `mvn` is configured for `PATH` for the shell/terminal you are using.
-
-> `JAVA_HOME` not found
-
-Please review [Maven's installation and configuration documentation](https://maven.apache.org/install.html). In particular, make sure `JAVA_HOME` is configured for `PATH` for the shell/terminal you are using.
-
-Please also review Oracle's documentation on this for-
-
-* [Windows](https://docs.oracle.com/en/java/javase/14/install/installation-jdk-microsoft-windows-platforms.html#GUID-96EB3876-8C7A-4A25-9F3A-A2983FEC016A)
-* [Mac](https://docs.oracle.com/en/java/javase/14/install/installation-jdk-macos.html#GUID-F9183C70-2E96-40F4-9104-F3814A5A331F)
-* [Linux](https://docs.oracle.com/en/java/javase/14/install/installation-jdk-linux-platforms.html#GUID-737A84E4-2EFF-4D38-8E60-3E29D1B884B8)
 
 ## Sample Screenshot
 ![Query performed on data](https://github.com/TerranUp16/cnt-4714-assignment-4/blob/main/screenshots/5d_refined.png)
