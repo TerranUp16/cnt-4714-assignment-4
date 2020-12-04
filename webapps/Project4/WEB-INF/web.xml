@@ -1,0 +1,21 @@
+<web-app>
+  <!-- General description of your Web application -->
+  <display-name>
+    Project 4 Enterprise Systems (CNT 4714 - Fall 2020)
+  </display-name>
+  <description>
+    A Three-Tier Distributed Web-Based Application
+  </description>
+  <!-- Servlet definitions -->
+  <servlet>
+    <servlet-name>businesslogic</servlet-name>
+    <description>
+      A servlet which intakes a SQL command, applies business logic, and outputs results as applicable.
+    </description>
+    <servlet-class>BusinessLogicSession</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>businesslogic</servlet-name>
+    <url-pattern>/businesslogic</url-pattern>
+  </servlet-mapping>
+</web-app>
